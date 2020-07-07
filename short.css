@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:700);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(https://fonts.googleapis.com/css?family=Voces);
+/* zocial */
+[class*="entypo-"]:before {
+  font-family: "entypo", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+.header {
+  background: #16a085;
+  height: 200px;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Holtwood One SC", serif;
+  color: white;
+  font-size: 50px;
+  text-shadow: 0px 3px 0px #7f8c8d;
+}
+
+.cont {
+  position: relative;
+  margin: 20px auto;
+  width: 500px;
+}
+
+.srchFld {
+  border: 0;
+  border-radius: 7px;
+  padding: 0 17px;
+  padding-right: 55px;
+  display: inline-block;
+  float: left;
+  width: 380px;
+  border-bottom: 5px solid #bdc3c7;
+  height: 60px;
+  font-family: "Roboto", sans-serif;
+  color: #7f8c8d;
+  font-size: 19px;
+}
+
+.srchFld:focus {
+  outline-color: rgba(255, 255, 255, 0);
+}
+
+.srchBtn {
+  border: 0;
+  border-radius: 7px;
+  padding: 0 17px;
+  background: #e74c3c;
+  display: inline-block;
+  float: right;
+  width: 99px;
+  border-bottom: 5px solid #c0392b;
+  color: white;
+  height: 60px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.srchBtn:active {
+  border-bottom: 0px solid #c0392b;
+}
+
+.ico {
+  position: absolute;
+  right: 135px;
+  top: 13px;
+  font-size: 35px;
+  color: #7f8c8d;
+}
+
+.animate-enter,
+.animate-leave {
+  -moz-transition: cubic-bezier(0.25, 0.25, 0.75, 0.75) 400ms all;
+  -o-transition: cubic-bezier(0.25, 0.25, 0.75, 0.75) 400ms all;
+  -webkit-transition: cubic-bezier(0.25, 0.25, 0.75, 0.75) 400ms all;
+  transition: cubic-bezier(0.25, 0.25, 0.75, 0.75) 400ms all;
+  position: relative;
+  display: block;
+}
+
+.animate-enter.animate-enter-active,
+.animate-leave {
+  opacity: 1;
+}
+
+.animate-leave.animate-leave-active,
+.animate-enter {
+  opacity: 0;
+}
+
+.url {
+  border: #16a085;
+  border: 5rem;
+}
